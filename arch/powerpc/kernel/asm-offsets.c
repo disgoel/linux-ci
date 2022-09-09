@@ -424,7 +424,6 @@ int main(void)
 	OFFSET(KVM_HOST_SDR1, kvm, arch.host_sdr1);
 	OFFSET(KVM_ENABLED_HCALLS, kvm, arch.enabled_hcalls);
 	OFFSET(KVM_VRMA_SLB_V, kvm, arch.vrma_slb_v);
-	OFFSET(KVM_RADIX, kvm, arch.radix);
 	OFFSET(KVM_SECURE_GUEST, kvm, arch.secure_guest);
 	OFFSET(VCPU_DSISR, kvm_vcpu, arch.shregs.dsisr);
 	OFFSET(VCPU_DAR, kvm_vcpu, arch.shregs.dar);
