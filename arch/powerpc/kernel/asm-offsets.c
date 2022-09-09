@@ -418,7 +418,6 @@ int main(void)
 
 	/* book3s */
 #ifdef CONFIG_KVM_BOOK3S_HV_POSSIBLE
-	OFFSET(KVM_TLB_SETS, kvm, arch.tlb_sets);
 	OFFSET(KVM_SDR1, kvm, arch.sdr1);
 	OFFSET(KVM_HOST_LPID, kvm, arch.host_lpid);
 	OFFSET(KVM_HOST_LPCR, kvm, arch.host_lpcr);
